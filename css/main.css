@@ -1,7 +1,7 @@
-@import url(";/reset.css");
-/* ========================
+@import url("./reset.css");
+/*  ==========================
 SECTION Z: THEME CSS
-======================== */
+    =========================== */
 
 header *{
     text-align: center;
@@ -11,6 +11,7 @@ header *{
 div.gallery-primary{ /* le conteneur */
     max-width: 120rem;
     margin: 5rem auto;
+    background-color: #fff;
 } 
 div.gallery-primary ul{
     overflow: hidden;
