@@ -1,0 +1,37 @@
+@import url(";/reset.css");
+/* ========================
+SECTION Z: THEME CSS
+======================== */
+
+header *{
+    text-align: center;
+    line-height: 7.5rem;
+}
+
+div.gallery-primary{ /* le conteneur */
+    max-width: 120rem;
+    margin: 5rem auto;
+} 
+div.gallery-primary ul{
+    overflow: hidden;
+    padding: 1rem 0 0 1rem;
+}
+div.gallery-primary ul li{
+    display: block;
+    float: left;
+    margin: left;
+    margin: 0 1rem 1rem 0;
+    width: calc(100ù / 4 - 1rem);
+
+}
+div.gallery-primary ul li:nth-of-type(5),
+div.gallery-primary ul li:nth-of-type(6){
+    width: calc(100% / 2 - 1rem);
+}
+div.gallery-primary ul li:last-child{
+    width: calc(100% / 1 - 1rem);
+}
+footer*{
+    text-align: center;
+    line-height: 7.5rem;
+}
