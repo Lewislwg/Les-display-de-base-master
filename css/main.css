@@ -4,30 +4,32 @@
    SECTION 2: THEME CSS
    ============================== */
 
-header *{
+header * {
     text-align: center;
     line-height: 7.5rem;
 }
 
-div.gallery-primary ul{
-   padding: 1rem 0 0 1rem;
+div.gallery-primary ul {
+    overflow: hidden;
+    padding: 1rem 0 0 1rem;
 }
 
-div.gallery-primary{ /* conteneur */
+div.gallery-primary {
+    /* conteneur */
     max-width: 120rem;
     margin: 5rem auto;
     background-color: #fff;
 }
 
 div.gallery-primary ul li {
-    display: inline-block;
+    display: block;
+    float: left;
     width: calc(100% / 4 - 1rem);
     margin: 0 1rem 1rem 0;
 }
 
 div.gallery-primary ul li:nth-of-type(5),
-div.gallery-primary ul li:nth-of-type(6)
-{
+div.gallery-primary ul li:nth-of-type(6) {
 
     width: calc(100% / 2 - 1rem);
 }
@@ -37,13 +39,12 @@ div.gallery-primary ul li:nth-of-type(6)
     width: calc(100% / 2 - 1rem);
 }*/
 
-div.gallery-primary ul li:last-child
-{
+div.gallery-primary ul li:last-child {
 
     width: calc(100% - 1rem);
 }
 
-footer{
+footer {
     text-align: center;
     line-height: 7.5rem;
 }
